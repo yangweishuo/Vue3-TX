@@ -624,7 +624,7 @@ export default defineComponent({
     </main>
 
     <footer class="footer">
-      <p>Vue3 TX 特效组件库 v0.2.0 | <a href="https://github.com/yourusername/vue3-tx-component" target="_blank">GitHub</a></p>
+      <p>Vue3 TX 特效组件库 v0.2.0 | <a href="https://github.com/yangweishuo/vue3-tx-component" target="_blank">GitHub</a></p>
     </footer>
   </div>
 </template>

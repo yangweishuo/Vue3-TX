@@ -1,6 +1,6 @@
 # Vue3 TX 特效组件库
 
-![版本](https://img.shields.io/badge/version-0.2.0-blue.svg)
+![版本](https://img.shields.io/badge/version-0.3.0-blue.svg)
 ![协议](https://img.shields.io/badge/license-MIT-green.svg)
 
 一套基于 Vue 3 的超级实用的前端特效组件库，提供了丰富的动画效果和交互组件，可以快速为你的项目增添现代化的视觉效果与用户体验。
@@ -189,4 +189,40 @@ const handleClick = () => {
 
 ### 3D翻转卡片
 
+```vue
+<template>
+  <div>
+    <FlipCard>
+      <template #front>
+        <div class="card-content">正面内容</div>
+      </template>
+      <template #back>
+        <div class="card-content">背面内容</div>
+      </template>
+    </FlipCard>
+  </div>
+</template>
 ```
+
+## 最新更新 (v0.3.0)
+
+- 新增 `GradientBackground` 渐变背景特效组件，支持动态色彩变化
+- 新增 `WaveBackground` 波浪背景特效组件，提供动态波浪动画
+- 新增 `MouseFollower` 鼠标跟随特效组件，支持多种跟随样式
+- 新增组件展示页面，可以在同一页面查看所有特效
+- 添加了背景切换功能，可以在不同背景特效之间切换
+- 优化了深色模式下的样式表现
+- 改进了组件的响应式设计
+- 增强了特效组件的交互体验
+
+## 文档
+
+访问我们的[在线文档](https://your-documentation-url.com)获取更详细的使用指南和API文档。
+
+## 贡献
+
+欢迎贡献代码、报告问题或提出功能请求。请查看[贡献指南](CONTRIBUTING.md)了解更多信息。
+
+## 许可证
+
+[MIT](LICENSE)
